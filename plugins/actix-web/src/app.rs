@@ -7,8 +7,7 @@ use super::{
 use actix_service::ServiceFactory;
 use actix_web::{
     dev::{HttpServiceFactory, MessageBody, ServiceRequest, ServiceResponse, Transform},
-    web::HttpResponse,
-    Error,
+    Error, HttpResponse,
 };
 use futures::future::{ok as fut_ok, Ready};
 use paperclip_core::v2::models::{DefaultApiRaw, SecurityScheme};
