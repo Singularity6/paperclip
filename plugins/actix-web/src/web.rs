@@ -6,7 +6,7 @@ pub use actix_web::web::{
 };
 
 use crate::Mountable;
-use actix_service::ServiceFactory};
+use actix_service::ServiceFactory;
 use actix_web::{
     dev::{AppService, Handler, HttpServiceFactory, ServiceRequest, ServiceResponse, Transform},
     guard::Guard,
